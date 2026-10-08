@@ -1,0 +1,75 @@
+/* --- REGULASI DASAR --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fce4ec; /* Background luar pink soft */
+    color: #4a4a4a;
+    margin: 0;
+    padding: 20px 0;
+}
+
+/* --- TABEL UTAMA --- */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 24px;
+    box-shadow: 0 10px 25px rgba(240, 98, 146, 0.15); /* Bayangan pink halus */
+    border: 1px solid #f8bbd0;
+    background-color: #ffffff;
+}
+
+/* --- HEADER (BARIS PERTAMA) --- */
+tr:first-child td {
+    background-color: #f48fb1 !important; /* Warna pink utama */
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    color: #ffffff;
+}
+
+/* --- TAUTAN / NAVIGASI --- */
+a {
+    color: #ec407a;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #ad1457;
+    text-decoration: underline;
+}
+
+/* --- KONTEN & BERITA --- */
+h1, h3 {
+    color: #880e4f;
+    margin-bottom: 8px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #f8bbd0;
+    margin: 20px 0;
+}
+
+/* --- SIDEBAR TAUTAN EKSTERNAL --- */
+td[bgcolor="lightgrey"] {
+    background-color: #fff5f8 !important; /* Pink sangat muda untuk sidebar */
+    border-left: 1px dashed #f8bbd0;
+}
+
+td[bgcolor="lightgrey"] ol {
+    padding-left: 20px;
+}
+
+td[bgcolor="lightgrey"] li {
+    margin-bottom: 6px;
+}
+
+/* --- FOOTER (BARIS TERAKHIR) --- */
+tr:last-child td {
+    background-color: #fce4ec;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: #ad1457;
+    font-size: 0.9em;
+}
